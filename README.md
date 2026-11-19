@@ -65,9 +65,10 @@ Dashboard shows: underpriced listings (quick flip opportunities), overpriced lis
 
 ```
 Used-Car-Price-Prediction/
-├── data/car_data.csv
+├── car_price_prediction.py
+├── data/car_data.csv      # download - see data/README.md
 ├── notebooks/Car_Price_Prediction.ipynb
-├── outputs/predicted_prices.csv
+├── outputs/predicted_prices.csv   # created on run
 ├── requirements.txt
 └── README.md
 ```
@@ -75,6 +76,8 @@ Used-Car-Price-Prediction/
 ---
 
 ## 🚀 How to Run
+
+First download the public dataset as described in [`data/README.md`](data/README.md).
 
 ```bash
 git clone https://github.com/omkarpallerla/Used-Car-Price-Prediction.git
@@ -95,6 +98,13 @@ jupyter notebook notebooks/Car_Price_Prediction.ipynb
 
 ---
 
+
+## 🧪 Data & Reproducibility
+
+`car_data.csv` is a public third-party dataset and is **not redistributed** here - see `data/README.md`. The Power BI / ADF refresh in the pipeline diagram is the intended integration design; this repo ships the modelling code and CSV hand-off only. Exact metrics depend on library versions and the train/test split.
+
+---
+
 <div align="center">
-  <sub>Built by <a href="https://github.com/omkarpallerla">Omkar Pallerla</a> · MS Business Analytics, ASU · BI Engineer · Azure | Power BI | Snowflake</sub>
+  <sub><a href="https://github.com/omkarpallerla">Omkar Pallerla</a> · MS Business Analytics, ASU · Business Intelligence Analyst · Google Cloud | Azure | Databricks | Snowflake Certified</sub>
 </div>
